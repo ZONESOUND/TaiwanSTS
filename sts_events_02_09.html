@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC>
+<html lang="en">
+
+    <head>
+
+        <title>sts_artist_art_work_info</title>
+        <meta charset='utf-8'>
+            <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+            <meta http-equiv="Content-Style-Type" content="text/css"/>
+            <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+                <link id="css" rel="stylesheet" href="style_sts_events_02_09.css">
+
+                    <script src="lib/jquery-3.3.1.min.js"></script>
+                    <script src="lib/p5.js"></script>
+                    <script src="lib/p5.dom.js"></script>
+                    
+                    <script src="script_sts_events_02_09.js"></script>
+                    <script src="script.js"></script>
+
+
+                </head>
+
+                <body>      
+                    <div id="title">RESCALING THE </br>WORLD</div> 
+                    <h1>2023 台灣科技與社會年會 議程</h1>
+                
+                    <table>
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+                        <tr>
+                            <td id="head">時間</td>
+                            <td id="head">09/02</td>
+                        </tr>
+
+                    <table>
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+
+                        <tr>
+                            <td class="time">8:30 ~ 9:00</br>(30min)</td>
+                            <td class="info">報到</td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 26.66%">
+                            <col style="width: 26.66%">                            
+                            <col style="width: 26.66%">
+
+                        </colgroup>
+
+                        <tr>
+                            <td rowspan="2" class="time">9:00 ~ 10:30</br>(90min)</td>
+                            <td class="info">尺度即美學:人類世下的感知重塑</br><span class="lib_1">&nbsp;&nbsp;圖書館ㄧ&nbsp;&nbsp;</span> 
+                            </br>
+                            <button id="more_bouton1"  onclick="more1();">+</button>
+
+                            <div id="more_info1" >
+                                召集人：沈克諭</br>
+                                主持人：沈克諭</br></br>
+                                作為「美學─感官」事件的人類世藝術 / 呂樾</br></br>
+                                身體作為丈量世界的尺度：陳芯宜 VR 作品中的體感 / 趙鐸</br></br>
+                                視差的校準：曖昧形式與溶接經驗 / 沈克諭</br></br>
+                                度量衡的改變與不變：以線性空間的「尺度」、「測量」與「尺寸」為例/ 林秀玉</div>
+                            </td>
+
+                            <td class="info">和 AI 一起做研究:祕訣、挑戰、與倫理</br><span class="lib_2">&nbsp;&nbsp;圖書館二&nbsp;&nbsp;</span>
+                            </br>
+                            <button id="more_bouton2"  onclick="more2();">+</button>
+
+                            <div id="more_info2" >
+                                召集人：李梅君</br>
+                                主持人：彭松嶽</br></br>
+                                與談人：卞中佩、李又如、游知澔、游博翔、楊智元、簡信昌</br></div>
+                            </td>
+
+                            <td class="info">多重的心靈、知識與實作:探索台灣當代精神科學的面貌</br><span class="lib_3">&nbsp;&nbsp;圖書館三&nbsp;&nbsp;</span>
+                            </br>
+                            <button id="more_bouton3"  onclick="more3();">+</button>
+                           
+                            <div id="more_info3" >
+                                召集人：陳嘉新</br>
+                                主持人：陳嘉新</br>
+                                評論人：巫毓荃</br></br>
+                                
+                                當代台灣心理治療的變動風貌 / 曾立揚</br></br>
+                                The NLP Multiple: 當代台灣神經語言程式學知識的多重本體 / 邱立軒</br></br>
+                                從台灣精神專科醫師口試實作探討精神醫學診斷知識的習得與使用 / 張復舜</br></br>
+                                初探精神病房內的親密關係及其形塑——障礙研究與關係自主理論的對話 / 張雅晴、陳渙文</div>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="info">營建剩餘土石方多元去化利用之技術、法規與治理</br><span class="box">&nbsp;&nbsp;灰盒子&nbsp;&nbsp;</span>
+                            </br>
+                            <button id="more_bouton4" onclick="more4();">+</button>
+                           
+                            <div id="more_info4">
+                                召集人：王巧萍</br>
+                                主持人：王巧萍</br></br>
+                                
+                                營建剩餘土石中火裡來水裡去的知與無知 / 王巧萍</br></br>
+                                你家變我家：營建剩餘土石方於老屋改建之華麗轉身與哀愁 / 劉光晏</br></br>
+                                社會溝通的能與不能:初探營建土石方去化處置的公共治理可能 / 宋威穎</br></br>
+                                徘徊迷航於水平與垂直權力分立之間的營建剩餘土石方法制建構 / 王毓正</div>
+                            </td>
+                            <td class="info">技術、技藝與身體</br><span class="c107">&nbsp;&nbsp;社創中心 107&nbsp;&nbsp;</span>
+                            </br>
+                            <button id="more_bouton5" onclick="more5();">+</button>
+                           
+                            <div id="more_info5">
+                                打開默會知識的黑盒子：模流分析、匠藝技能與黑手師傅 / 黃俊豪</br></br>
+                                臺灣正顎手術的社會科技想像：圖像的運用以及國際化的訴求 / 于政民</br></br>
+                                人工電子耳的感官基礎建設：從台灣聽損者的經驗出發 / 萬宗綸</br></br>
+                                重探人們在虛擬空間與實體環境的角色切換：以 Gather Town 線上擬真軟體為例 / 邱映寰</div>
+                            </td>
+                            <td class="info">疾病與社會</br><span class="c208">&nbsp;&nbsp;社創中心 208&nbsp;&nbsp;</span>
+                            </br>
+                            <button id="more_bouton6" onclick="more6();">+</button>
+                           
+                            <div id="more_info6">
+                                邊界與病毒: Covid-19的歷史比較研究初探 / 李尚仁</br></br>
+                                Measuring Social Distance: Narratives of COVID-19 and Rescaling Technology of the Self / 陳重仁</br></br>
+                                跨越疼痛的尺度：慢性疼痛患者疾病表現的身體政治 / 朱濟廷</br></br>
+                                新冠肺炎與行動技術的尺度：隔離、身體與人口管制 / 許哲瑋</div>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+
+                        <tr>
+                            <td class="time">10:30 ~ 10:50</br>(20min)</td>
+                            <td class="info">休息</td>
+                        </tr>
+
+                    </table>
+
+                    <table>
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+
+                        <tr>
+                            <td class="time">10:50 ~ 12:20</br>(90min)</td>
+                            <td> <div class="info_keynote">【主題演講】</div>
+                            <div class="keynote_speaker">Victor Seow
+                            </br>Harvard University</div>
+                            <div class="keynote_subjet">Some reflections on energy and the scales of historical and social analysis</br><span class="lib_3">&nbsp;&nbsp;圖書館三&nbsp;&nbsp;</span></div></td>
+                        </tr>
+
+                    </table>
+                    
+                    <table>
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 40%;">
+                            <col style="width: 40%;">
+                        </colgroup>
+
+                        <tr>
+                            <td class="time">12:20 ~ 13:30</br>(70min)</td>
+                            <td class="info">會員年會/論文獎頒獎/午餐</br><span class="lib_3">&nbsp;&nbsp;圖書館三&nbsp;&nbsp;</span></td>
+                            <td class="info_2">圓桌論壇：科技、民主與社會研究中心介紹</br><span class="box">&nbsp;&nbsp;灰盒子&nbsp;&nbsp;</span></td>
+                        </tr>    
+
+                    </table>
+                   
+                    <table>
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 26.66%">
+                            <col style="width: 26.66%">                            
+                            <col style="width: 26.66%">
+
+                        </colgroup>
+
+                        <tr>
+                            <td rowspan="2" class="time">13:30 ~ 15:00</br>(90min)</td>
+                            <td class="info">重新度量科技、藝術與創作之間的距離</br><span class="lib_1">&nbsp;&nbsp;圖書館ㄧ&nbsp;&nbsp;</span></td>
+                            <td class="info">醫療照護在臺灣</br><span class="lib_2">&nbsp;&nbsp;圖書館二&nbsp;&nbsp;</span></td>
+                            <td class="info">重置失控的尺度：測量禽流感、酒精濃度與塑膠微粒的科學與文化</br><span class="lib_3">&nbsp;&nbsp;圖書館三&nbsp;&nbsp;</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="info">科技民主與公民參與</br><span class="box">&nbsp;&nbsp;灰盒子&nbsp;&nbsp;</span></td>
+                            <td class="info">人工智慧與虛擬世界</br><span class="c107">&nbsp;&nbsp;社創中心 107&nbsp;&nbsp;</span></td>
+                            <td class="info">重置愛滋治理尺度談治理的市場化、減害實作以及病毒的社會想像</br><span class="c208">&nbsp;&nbsp;社創中心 208&nbsp;&nbsp;</span></td></td>
+                        </tr>
+                    </table>
+                   
+                    <table>
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+
+                        <tr>
+                            <td class="time">15:00 ~ 15:20</br>(20min)</td>
+                            <td class="info">休息</td>
+                        </tr>
+
+                    </table>
+
+                    <table>
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 26.66%">
+                            <col style="width: 26.66%">                            
+                            <col style="width: 26.66%">
+
+                        </colgroup>
+
+                        <tr>
+                            <td rowspan="2" class="time">15:20 ~ 16:50</br>(90min)</td>
+                            <td class="info">資訊操弄與</br>認知戰的距離</br><span class="lib_1">&nbsp;&nbsp;圖書館ㄧ&nbsp;&nbsp;</span></td>
+                            <td class="info">自然生與死</br><span class="lib_2">&nbsp;&nbsp;圖書館二&nbsp;&nbsp;</span></td>
+                            <td class="info">博物館與科學轉譯</br><span class="lib_3">&nbsp;&nbsp;圖書館三&nbsp;&nbsp;</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="info">以科學之名？刑事司法中的科學爭議</br><span class="box">&nbsp;&nbsp;灰盒子&nbsp;&nbsp;</span></td>
+                            <td class="info">近代中國技術</br>治理的形成</br><span class="c107">&nbsp;&nbsp;社創中心 107&nbsp;&nbsp;</span></td>
+                            <td class="info">律化惡魔：「生物分子、能量，與傳遞」論壇及展演</br><span class="c208">&nbsp;&nbsp;社創中心 208&nbsp;&nbsp;</span></td></td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+
+                        <tr>
+                            <td class="time">16:50 ~ 17:10</br>(20min)</td>
+                            <td class="info">休息</td>
+                        </tr>
+
+                    </table>
+
+                    <table>
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+
+                        <tr>
+                            <td class="time">17:10 ~ 18:30</br>(80min)</td>
+                            <td class="info">晚宴</td>
+                        </tr>
+
+                    </table>
+
+                    <table>
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+
+                        <tr>
+                            <td class="time">18:30 ~ 20:00</br>(90min)</td>
+                            <td> <div class="info_keynote">【主題演講】</div>
+                            <div class="keynote_speaker">雷祥麟
+                            </br>中央研究院近代史研究所</div>
+                            <div class="keynote_subjet">STS與現代史的相互渴望</br><span class="lib_3">&nbsp;&nbsp;圖書館三&nbsp;&nbsp;</span></div></td>
+                        </tr>
+
+                    </table>
+
+                             
+                </body>
+
+
+                </html>

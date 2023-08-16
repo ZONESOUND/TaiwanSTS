@@ -1,0 +1,430 @@
+/* ici on charge les typos */
+@font-face {
+    font-family: police1;
+    src: url("fonts/Helvetica.ttc");
+}
+
+@font-face {
+    font-family: police2;
+    src: url("fonts/GenWanMin-R.ttc");
+}
+
+@font-face {
+    font-family: police3;
+    src: url("fonts/Arial_Bold.ttf");
+}
+
+
+
+body {
+    overflow: scroll;
+    width: 100vw;
+    height: 100vh;
+}      
+
+#title {
+   color: #00ADF1;
+   font-family: police1;
+   font-size: 7rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   letter-spacing: 0;
+
+   margin-left: 6vw;
+   margin-top: 4vh;
+}
+
+h1 {
+   color: #000;
+   font-family: Helvetica;
+   font-size: 2rem;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+
+   margin-left: 6vw;
+   margin-top: 4vh;
+   margin-bottom: 6vh;
+}
+
+#h1_en{
+    color: #000;
+    font-family: Helvetica;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+ 
+
+}
+
+table{
+    margin-left: 8vw;
+    margin-right: 8vw ;
+    border-collapse: collapse;
+
+}
+
+
+tr{
+    border-color:#ccc;
+    border-style:solid;
+
+    border-top-width:0px;
+    border-bottom-width:1px;
+    border-right-width:0px;
+    border-left-width:0px;
+}
+
+
+th{
+    border-style:none;
+
+  
+    
+    color:#333;
+    font-family:police3;
+    font-size: 1.3rem;
+    font-weight:normal;
+    overflow:hidden;
+    padding:3vh 1vw;    
+    word-break:normal;
+    text-align: center;
+
+}
+
+
+td{
+    border-style:none;
+
+    color:#333;
+    font-family:police1;
+    font-size: 1.1rem;
+    overflow:hidden;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-left:  1Bvw;
+    padding-right: 1vw;   
+     word-break:normal;
+}
+
+
+#intro1, #intro2, #intro3, #intro4, #intro5, #intro6, #intro7, #intro8, #intro9, #intro10, #intro11, #intro12, #intro13, #intro14, #intro15, #intro16, #intro17, #intro18, #intro19, #intro20, #intro21, #intro22, #intro23, #intro24, #intro25, #intro26, #intro27, #intro28, #intro29, #intro30, #intro31, #intro32, #intro33, #intro34, #intro35, #intro36, #intro37, #intro38, #intro39, #intro40, #intro41, #intro42, #intro43, #intro44, #intro45, #intro46, #intro47, #intro48, #intro49, #intro50, #intro51, #intro52, #intro53, #intro54, #intro55, #intro56, #intro57, #intro58, #intro59, #intro60, #intro61, #intro62{ 
+    display:none;
+    color: #000;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 0vw;
+    padding-right: 0vw;
+
+    text-align: justify;
+    font-family: police1;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 0px;  
+
+   /* border: solid 1px #00ADF1;*/
+}    
+
+#intro_bouton1, #intro_bouton2, #intro_bouton3, #intro_bouton4, #intro_bouton5, #intro_bouton6, #intro_bouton7, #intro_bouton8, #intro_bouton9, #intro_bouton10, #intro_bouton11, #intro_bouton12, #intro_bouton13, #intro_bouton14, #intro_bouton15, #intro_bouton16, #intro_bouton17, #intro_bouton18, #intro_bouton19, #intro_bouton20, #intro_bouton21, #intro_bouton22, #intro_bouton23, #intro_bouton24, #intro_bouton25, #intro_bouton26, #intro_bouton27, #intro_bouton28, #intro_bouton29, #intro_bouton30, #intro_bouton31, #intro_bouton32, #intro_bouton33, #intro_bouton34, #intro_bouton35, #intro_bouton36, #intro_bouton37, #intro_bouton38, #intro_bouton39, #intro_bouton40, #intro_bouton41, #intro_bouton42, #intro_bouton43, #intro_bouton44, #intro_bouton45, #intro_bouton46, #intro_bouton47, #intro_bouton48, #intro_bouton49, #intro_bouton50, #intro_bouton51, #intro_bouton52, #intro_bouton53, #intro_bouton54, #intro_bouton55, #intro_bouton56, #intro_bouton57, #intro_bouton58, #intro_bouton59, #intro_bouton60, #intro_bouton61, #intro_bouton62, #intro_bouton63, #intro_bouton64 {
+    color: #00ADF1;
+    background-color: rgba(255,255,255,0);
+    text-align: center;
+    font-family: police3;
+    font-size: 1.7rem;
+    border: 0;
+    transform: rotate(0);
+
+}
+
+/*--------------------------------------------------------------------------*/
+
+
+
+
+
+/*table {
+
+    width: 80vw;
+    border-collapse: collapse;
+    border: 1px solid #333;
+
+    margin-left: 10vw;
+    margin-top: 1vh;
+}
+
+
+
+/* 偶數行的背景顏色 
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}*/
+
+/* td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}*/
+
+/*td:hover {
+    background-color: #00ADF1;
+}*/
+
+/*
+#head {
+    padding: 1vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.6rem;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3px;    
+}   
+
+.time {
+    
+    padding: 1.5vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: 1.7rem;
+}   
+
+.info {
+    
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    padding-left:  2vw;
+    padding-right: 2vw;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;  
+    margin-top: 15px;
+
+}
+
+.info_2 {
+    
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    padding-left:  5vw;
+    padding-right: 5vw;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;  
+    
+    margin-top: 15px;
+
+} 
+
+
+.keynote_speaker {
+    
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+    padding-left:  15vw;
+    padding-right: 15vw;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.3rem;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;  
+
+    
+    margin-top: 0px;
+
+} 
+
+.keynote_subjet {
+    
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    padding-left:  15vw;
+    padding-right: 15vw;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.2rem;
+    font-style: normal;
+    line-height: normal;
+    
+    margin-top: 0px;
+
+} 
+
+
+.lib_1{
+    padding: 0.5vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.2vw;
+    font-style: normal;
+    line-height: 3rem;
+    letter-spacing: 3px; 
+    border-radius: 30px;
+    background-color: #BEF2E5;
+
+    position: relative;
+    bottom: -5px;
+}
+
+
+.lib_2{
+    padding: 0.5vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.2vw;
+    font-style: normal;
+    line-height: 3rem;
+    letter-spacing: 3px; 
+    border-radius: 30px;
+    background-color: #D2D0FC;
+
+    position: relative;
+    bottom: -5px;
+}
+
+.lib_3{
+    padding: 0.5vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.2vw;
+    font-style: normal;
+    line-height: 3rem;
+    letter-spacing: 3px; 
+    border-radius: 30px;
+    background-color: #79CEED;
+
+    position: relative;
+    bottom: -5px;
+   
+}
+
+.box{
+    padding: 0.5vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.2vw;
+    font-style: normal;
+    line-height: 3rem;
+    letter-spacing: 3px; 
+    border-radius: 30px;
+    background-color: #D9D9D9;
+
+    position: relative;
+    bottom: -5px;
+}
+
+.c107{
+    padding: 0.5vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.2vw;
+    font-style: normal;
+    line-height: 3rem;
+    letter-spacing: 3px; 
+    border-radius: 30px;
+    background-color: #E2D36B;
+  
+    position: relative;
+    bottom: -5px;
+}
+
+.c208{
+    padding: 0.5vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.2vw;
+    font-style: normal;
+    line-height: 3rem;
+    letter-spacing: 3px; 
+    border-radius: 30px;
+    background-color: #BAC94A;
+
+    position: relative;
+    bottom: -5px;
+}
+
+
+
+#more_info1, #more_info2, #more_info3, #more_info4, #more_info5, #more_info6{
+    display:none;
+    color: #000;
+    padding-top: 0vh;
+    padding-bottom: 2vh;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+
+    text-align: justify;
+    font-family: police3;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0px;  
+    
+    margin-top: 15px;
+}
+
+#more_bouton1, #more_bouton2, #more_bouton3, #more_bouton4, #more_bouton5, #more_bouton6{    
+    color: #00ADF1;
+    background-color:rgba(255,255,255,0);
+    text-align:right;
+    font-family: police3;
+    font-size: 1.8rem;
+    border: 0;
+    transform: rotate(0);
+
+    position:relative;
+    left: 9vw;
+}
+
+
+
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+*/
+
+/* SMARTPHONE MODE PORTRAIT */
+@media screen and (orientation: portrait) {
+    }

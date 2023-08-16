@@ -1,0 +1,348 @@
+/* ici on charge les typos */
+@font-face {
+    font-family: police1;
+    src: url("fonts/Helvetica.ttc");
+}
+
+@font-face {
+    font-family: police2;
+    src: url("fonts/GenWanMin-R.ttc");
+}
+
+@font-face {
+    font-family: police3;
+    src: url("fonts/Arial_Bold.ttf");
+}
+
+
+
+body {
+    overflow: scroll;
+    width: 100vw;
+    height: 100vh;
+}      
+
+
+
+table {
+
+    width: 80vw;
+    border-collapse: collapse;
+    border: 1px solid #333;
+
+    margin-left: 10vw;
+    margin-top: 1vh;
+}
+
+
+
+/* 偶數行的背景顏色 
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}*/
+
+td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/*td:hover {
+    background-color: #00ADF1;
+}*/
+
+#head {
+    padding: 1vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.6rem;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3px;    
+}   
+
+.time {
+    
+    padding: 1.5vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: 1.7rem;
+}   
+
+.info {
+    
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+    padding-left:  1.5vw;
+    padding-right: 1.5vw;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;  
+    margin-top: 15px;
+    vertical-align: top;
+}
+
+.info_2 {
+    
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+    padding-left:  5vw;
+    padding-right: 5vw;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;  
+    
+    margin-top: 15px;
+
+} 
+
+.info_keynote{    
+    padding-top: 0.5vh;
+    padding-bottom: 2vh;
+    padding-left:  1.5vw;
+    padding-right: 1.5vw;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.4rem;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;  
+    margin-top: 15px;
+    vertical-align: top;
+
+
+}
+.keynote_speaker {
+    
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+    padding-left:  15vw;
+    padding-right: 15vw;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.3rem;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1px;  
+
+    
+    margin-top: 0px;
+
+} 
+
+.keynote_subjet {
+    
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    padding-left:  15vw;
+    padding-right: 15vw;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.2rem;
+    font-style: normal;
+    line-height: normal;
+    
+    margin-top: 0px;
+
+} 
+
+
+.lib_1{
+    padding: 0.5vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.2vw;
+    font-style: normal;
+    line-height: 3rem;
+    letter-spacing: 3px; 
+    border-radius: 30px;
+    background-color: #BEF2E5;
+
+    position: relative;
+    bottom: -5px;
+}
+
+
+.lib_2{
+    padding: 0.5vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.2vw;
+    font-style: normal;
+    line-height: 3rem;
+    letter-spacing: 3px; 
+    border-radius: 30px;
+    background-color: #D2D0FC;
+
+    position: relative;
+    bottom: -5px;
+}
+
+.lib_3{
+    padding: 0.5vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.2vw;
+    font-style: normal;
+    line-height: 3rem;
+    letter-spacing: 3px; 
+    border-radius: 30px;
+    background-color: #79CEED;
+
+    position: relative;
+    bottom: -5px;
+   
+}
+
+.box{
+    padding: 0.5vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.2vw;
+    font-style: normal;
+    line-height: 3rem;
+    letter-spacing: 3px; 
+    border-radius: 30px;
+    background-color: #D9D9D9;
+
+    position: relative;
+    bottom: -5px;
+}
+
+.c107{
+    padding: 0.5vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.2vw;
+    font-style: normal;
+    line-height: 3rem;
+    letter-spacing: 3px; 
+    border-radius: 30px;
+    background-color: #E2D36B;
+  
+    position: relative;
+    bottom: -5px;
+}
+
+.c208{
+    padding: 0.5vh;
+
+    color: #000;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.2vw;
+    font-style: normal;
+    line-height: 3rem;
+    letter-spacing: 3px; 
+    border-radius: 30px;
+    background-color: #BAC94A;
+
+    position: relative;
+    bottom: -5px;
+}
+
+
+
+#more_info1, #more_info2, #more_info3, #more_info4, #more_info5, #more_info6{
+    display:none;
+    color: #000;
+    padding-top: 0vh;
+    padding-bottom: 2vh;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+
+    text-align: justify;
+    font-family: police3;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0px;  
+    
+    margin-top: 15px;
+}
+
+#more_bouton1, #more_bouton2, #more_bouton3, #more_bouton4, #more_bouton5, #more_bouton6{    
+    color: #00ADF1;
+    background-color:rgba(255,255,255,0);
+    text-align:right;
+    font-family: police3;
+    font-size: 1.8rem;
+    border: 0;
+    transform: rotate(0);
+
+    position:relative;
+    left: 9vw;
+}
+
+#title {
+     color: #00ADF1;
+    /* selection de la couleur */
+    font-family: police1;
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0;
+
+    margin-left: 6vw;
+    margin-top: 4vh;
+}
+
+h1 {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-left: 6vw;
+    margin-top: 4vh;
+    margin-bottom: 6vh;
+}
+
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+
+/* SMARTPHONE MODE PORTRAIT */
+@media screen and (orientation: portrait) {
+    }

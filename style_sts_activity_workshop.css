@@ -1,0 +1,285 @@
+/* ici on charge les typos */
+@font-face {
+    font-family: police1;
+    src: url("fonts/Helvetica.ttc");
+}
+
+@font-face {
+    font-family: police2;
+    src: url("fonts/GenWanMin-R.ttc");
+}
+
+@font-face {
+    font-family: police3;
+    src: url("fonts/Arial_Bold.ttf");
+}
+
+
+
+body {
+    overflow: scroll;
+    width: 100vw;
+    
+}
+
+
+
+.grid { 
+    display: grid;
+    width: 88vw;
+    height: auto;
+    gap: 5vw;
+    grid-gap: 0vw;
+    padding: 0;
+
+    margin-left: 6vw;
+    margin-top: 3vh;
+}
+
+
+#content1 {
+    grid-column: 1;
+    grid-row: 1;
+  
+    width: 25vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+#content2 {
+    grid-column: 1;
+    grid-row: 2;
+  
+    width: 25vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+#content3 {
+    grid-column: 2;
+    grid-row: 2;
+  
+    width: 50vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+#content4 {
+    grid-column: 2;
+    grid-row: 3;
+  
+    width: 50vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+#content5 {
+    grid-column: 1;
+    grid-row: 4;
+  
+    width: 25vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+#content6 {
+    grid-column: 1;
+    grid-row: 5;
+  
+    width: 25vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+#content7 {
+    grid-column: 2;
+    grid-row: 5;
+  
+    width: 50vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+#content8 {
+    grid-column: 2;
+    grid-row: 6;
+  
+    width: 50vw;
+    height: auto;
+    object-fit: cover;
+  }
+
+#title {
+     color: #00ADF1;
+    /* selection de la couleur */
+    font-family: police1;
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0;
+
+    margin-left: 6vw;
+    margin-top: 4vh;
+}
+
+h1 {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-left: 6vw;
+    margin-top: 4vh;
+}
+
+#date_objet{
+    color: #000;
+    text-align: justify;
+    font-family: police3;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75; 
+    letter-spacing: 0.05em;
+
+    margin-top: 2vh;
+    margin-bottom:1vh;
+}
+
+.line1{
+    width: 25vw;
+    height: 0.5px;
+    background: #000;
+
+    margin-left: 0;
+    margin-top: 1,5vh;
+
+}
+
+.text_info{
+    color: #000;
+    text-align: justify;
+    font-family: police3;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75; 
+    letter-spacing: 0.05em;
+
+    margin-top: 1.5vh;
+    margin-bottom:1vh;
+}
+
+#name_en{
+    color: #6A6A6A;
+    text-align: left;
+    font-family: police3;
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.05em;
+
+    margin-top: 0vh;
+    margin-bottom:1vh;
+
+}
+
+.text_tc{
+
+    color: #000;
+    text-align: justify;
+    font-family: police2;
+    font-size: 1.15rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75; 
+    letter-spacing: 0.05em;
+
+    margin-top: 3vh;
+    margin-bottom:3vh;
+}
+
+.text_tc2{
+
+    color: #6A6A6A;
+    text-align: justify;
+    font-family: police2;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75; 
+    letter-spacing: 0.05em;
+
+    margin-top: 3vh;
+    margin-bottom:3vh;
+}
+
+.text_tc3{
+
+    color: #000;
+    text-align: justify;
+    font-family: police2;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2; 
+    letter-spacing: 0.05em;
+
+    margin-top: 5vh;
+    margin-bottom:5vh;
+}
+
+.text_en{
+
+    color: #6A6A6A;
+    text-align: justify;
+    font-family: police2;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75; 
+    letter-spacing: 0;
+
+    margin-top: 2vh;
+    margin-bottom:3vh;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+button{
+    color:#00ADF1;
+    text-align: center;
+    font-family: police3;
+    font-size: 1.4rem;
+    background-color: white;
+
+    padding: 1px 40px;
+
+    border:#00ADF1 solid 2px;
+    border-radius: 30px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+
+    margin-top: 2vh;
+    margin-left: 6vw;
+}
+
+button:hover{
+    color:white;
+    background-color: #00ADF1;
+    box-shadow: inset 3px 3px 3px 2px rgba(0, 0, 0, 0);
+
+}
+
+/* SMARTPHONE MODE PORTRAIT */
+@media screen and (orientation: portrait) {
+    }
