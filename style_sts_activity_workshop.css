@@ -131,9 +131,20 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    letter-spacing: 1px;
 
     margin-left: 6vw;
     margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+#h1_en{
+    color: #000;
+    font-family: Helvetica;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 #date_objet{
@@ -281,6 +292,20 @@ button:hover{
 
 }
 
+#a_title{
+    text-decoration: none;
+    color: #00ADF1;
+}
+
+a {
+    text-decoration: none;
+    color: #00ADF1;
+    cursor: pointer;
+}
+a:hover {
+    color: #fff;
+    transition: all .1s;
+}
 /* SMARTPHONE MODE PORTRAIT */
 @media screen and (orientation: portrait) {
     }

@@ -1,0 +1,98 @@
+/* ici on charge les typos */
+@font-face {
+    font-family: police1;
+    src: url("fonts/Helvetica.ttc");
+}
+
+@font-face {
+    font-family: police2;
+    src: url("fonts/GenWanMin-R.ttc");
+}
+
+
+body {
+    overflow: scroll;
+    width: 100vw;
+    
+}
+
+
+#title {
+     color: #00ADF1;
+    /* selection de la couleur */
+    font-family: police1;
+    font-size: 7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0;
+
+    margin-left: 6vw;
+    margin-top: 4vh;
+}
+
+h1 {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-left: 6vw;
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+    margin-right: 0vw;
+}
+
+#h1_en{
+    color: #000;
+    font-family: Helvetica;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+#map_image1{
+    width: 80vw;
+    height: auto;
+    margin: 0vh 10vw;
+    
+}
+
+#map_image2{
+    width: 80vw;
+    height: auto;
+    margin: -10vh 10vw;
+    
+}
+
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    color: #00ADF1;
+    transition: all .1s;
+}
+
+#a_title{
+    text-decoration: none;
+    color: #00ADF1;
+}
+
+
+/* SMARTPHONE MODE PORTRAIT */
+@media screen and (orientation: portrait) {
+    }
