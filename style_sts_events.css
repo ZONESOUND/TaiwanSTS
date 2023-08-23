@@ -507,17 +507,19 @@ p{
         margin-left: 6vw;
         display: grid;
 
-        border: 1px solid #ddd;
+        border: 0px solid #ddd;
         border-style:solid;
         align-items: flex-start;
     }
 
- 
+    tr{
+        display: grid;
+    }
     td{
         border-color:#fff;
         border: 1px solid #ddd;
-        display: flex;
-        flex-direction: column;
+        display: block;
+        margin-bottom: 10px;
         
 
        /*  border-top-width:0px;
@@ -526,10 +528,7 @@ p{
         border-left-width:0px;*/
     }
 
-    td > * {
-        display: block;
-        margin-left: 20px; /* 調整條列內容的間距 */
-    }
+  
 
     thead {
         font-size: 5vw;
@@ -585,24 +584,24 @@ p{
 
     #event_0902_1{
         transform: scale(0.6);
-        right:20vw;
+        right:75px;
     
     }
     
     #event_0903_1{
         transform: scale(0.6);
-        right:2vw;
+        right:5px;
     }
     
     #event_0902_2{
         transform: scale(0.6);
-        right:20vw;
+        right:75px;
     
     }
     
     #event_0903_2{
         transform: scale(0.6);
-        right:2vw;
+        right:5px;
     }
 
 }

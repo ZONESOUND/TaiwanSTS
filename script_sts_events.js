@@ -16,3 +16,4 @@ $(document).ready(function() {
         $("#more_bouton" + i).on("click", toggleMore.bind(null, i));
     }
 });
+
