@@ -9,17 +9,74 @@
             <meta http-equiv="Content-Style-Type" content="text/css"/>
             <meta name="viewport" content="initial-scale=1, maximum-scale=1">
                 <link id="css" rel="stylesheet" href="style_sts_map.css">
-
+                <link id="css" rel="stylesheet" href="menu_footer.css">
                     <script src="lib/jquery-3.3.1.min.js"></script>
                     <script src="lib/p5.js"></script>
 
                     <script src="lib/p5.dom.js"></script>
                     <script type="text/javascript" src="script_sts_map.js"></script>
+                    <script src="menu_footer.js"></script>
 
                 </head>
 
                 <body>      
-                    <div id="title"><a href="sts_home.html" id="a_title">RESCALING THE</br>WORLD</a></div> 
+                    <div id="title"><a href="index.html" id="a_title">RESCALING THE</br>WORLD</a></div> 
+                    <div id="menu">
+                        <button id="button_menu1" onclick="menu1();">Menu</button>
+                        <div id="menu_content1">
+                            <div id="block_1">
+                                <p class="text_menu">關於<br>About</p>
+                                <p class="text_menu2">
+                                    <a href="sts_about.html">年會介紹</a><br>
+                                    <a href="sts_association_intro.html">STS學會介紹</a>
+                                    </p>
+                            </div>
+        
+                            <div id="block_2">
+                                <p class="text_menu">論文<br>Thesis</p>
+                                <p class="text_menu2">
+                                    <a href="sts_thesis1.html">個別論文</a><br>
+                                    <a href="sts_thesis2.html">論壇</a><br>
+                                    <a href="sts_thesis3.html">自組論文</a><br>
+                                    <a href="sts_thesis4.html">海報發表</a><br>
+                                    <a href="sts_thesis5.html">其他形式發表</a>                                
+                                </p>
+                            </div>
+        
+                            <div  id="block_3">
+                                <p class="text_menu">活動議程</br>Events</p>
+                                <p class="text_menu2">
+                                    <a href="sts_event_schedule.html">活動時程表</a><br>
+                                    <a href="sts_events_02_09.html">年會議程表</a><br>
+                                    <a href="sts_keynote_speech.html">Keynote Speech</a><br>
+                                    <a href="sts_activity_workshop.html">公眾活動</a>                                
+                                </p>
+                            </div>
+        
+                            <div id="block_4">
+                                <p class="text_menu">展覽介紹</br>Exhibition</p>
+                                <p class="text_menu2">
+                                    <a href="sts_expo_intro.html">展覽介紹</a><br>
+                                    <a href="sts_expo_curator.html">策展人介紹</a><br>
+                                    <a href="sts_artwork_info.html">藝術家/作品介紹</a>
+                                </p>
+                            </div>
+                            
+                            <div id="block_5">
+                                <p class="text_menu">展區導覽</br>Visit Info</p>
+                                <p class="text_menu2">
+                                    <a href="sts_map.html">活動場地圖</a>
+                                </p>
+                            </div>
+        
+                            <div id="block_6">
+                                <p class="text_menu">STS學會官網</br>STS website</p>
+                                <p class="text_menu2">
+                                    <a href="http://sts.org.tw/" target="_blank">STS學會官網</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     <h1>活動場地圖 <span id="h1_en">Map</span></h1>
 
                     <img id="map_image1" src="/media/C_lab_Map_03.png">
@@ -27,7 +84,16 @@
                     <img id="map_image2" src="/media/C_lab_Map_04.png">
 
                   
-
+                    <footer>
+                        <div class="footer_text">
+                        指導單位｜<img id="logo" src="/media/logo_3.png"></br>
+                        主辦單位｜臺灣科技與社會研究學會、國立臺灣大學地理環境資源學系、融聲創意</br>
+                        協辦單位｜臺灣當代文化實驗場</br>
+                        贊助單位｜行政院國家科學委員會、洪建全基金會、臺灣大學理學院、財團法人建蓁環境教育基金會、沛星互動科技股份有限公司、金色三麥、啤酒頭釀造</br>
+                        設備贊助｜臺灣松下電器</br>
+                        </div>
+    
+                    </footer>
                 </body>
 
                 </html>

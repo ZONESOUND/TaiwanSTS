@@ -20,6 +20,10 @@ body {
     overflow: scroll;
     width: 100vw;
     height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: scroll; 
+    overflow-x: hidden;
 }      
 
 
@@ -50,17 +54,21 @@ td {
     background-color: #00ADF1;
 }*/
 
-#head {
-    padding: 1vh;
-
+thead {
     color: #000;
     text-align: center;
     font-family: police3;
     font-size: 1.6rem;
     font-style: normal;
     line-height: normal;
-    letter-spacing: 3px;    
+    letter-spacing: 3px;  
+    border: solid #ccc 1px;  
 }   
+
+th{
+    padding: 1.5vh;
+
+}
 
 .time {
     
@@ -475,5 +483,120 @@ p{
 
 
 /* SMARTPHONE MODE PORTRAIT */
-@media screen and (orientation: portrait) {
+@media only screen and (max-width: 600px) {
+    #title{
+        font-size: 2.5rem;
+        margin: 4vh 8vw ;
+        width: 84vw;
     }
+    h1{
+        margin: 0vh 8vw;
+        font-size: 1.3rem;
+        line-height: 2;
+        
+    
+    }
+    #h1_en{
+        font-size: 0.95rem;
+        line-height: 1.5;
+    
+    }
+
+    table{
+        width: 88vw;
+        margin-left: 6vw;
+        display: flex;
+        flex-direction: column;
+
+        border: 1px solid #ddd;
+        border-style:solid;
+    }
+
+ 
+    td{
+        border-color:#fff;
+        display:list-item;
+
+        list-style: none;
+        border: 1px solid #ddd;
+       /*  border-top-width:0px;
+        border-bottom-width:0px;
+        border-right-width:0px;
+        border-left-width:0px;*/
+    }
+
+    thead {
+        font-size: 5vw;
+    }
+
+    tbody {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .time{
+        font-size: 4.5vw;
+        line-height: 1;
+        padding: 2vh;
+    }
+
+    .info{
+        font-size:4.5vw;
+        margin-top: 0;
+
+        padding:2vh;
+    }
+
+    .info_2{
+        font-size:4.5vw;
+        margin-top: 0;
+
+        padding:2vh;
+    }
+
+    .info_en{
+        margin-top: 0;
+        font-size:4vw
+    }
+
+    .info_keynote{    
+        font-size: 4vw;
+  
+    }
+    .keynote_speaker {
+        
+        font-size: 4vw;
+    
+    } 
+    
+    .keynote_subjet {
+        
+        font-size: 4.5vw;
+    } 
+
+    #event_0902_1{
+        transform: scale(0.6);
+        right:20vw;
+    
+    }
+    
+    #event_0903_1{
+        transform: scale(0.6);
+        right:2vw;
+    }
+    
+    #event_0902_2{
+        transform: scale(0.6);
+        right:20vw;
+    
+    }
+    
+    #event_0903_2{
+        transform: scale(0.6);
+        right:2vw;
+    }
+
+}
+    

@@ -9,14 +9,25 @@
     src: url("fonts/GenWanMin-R.ttc");
 }
 
-
+@font-face {
+    font-family: police3;
+    src: url("fonts/Arial_Bold.ttf");
+}
 body {
     overflow: scroll;
     width: 100vw;
     
+    margin: 0;
+    padding: 0;
+    overflow: scroll; 
+    overflow-x: hidden;
 }
 
+/*--------------------------------------------------*/
 
+
+
+/*--------------------------------------------------*/
 
 .grid { 
     display: grid;
@@ -167,8 +178,132 @@ a:hover {
     text-decoration: none;
     color: #00ADF1;
 }
+/*---------------footer--------------*/
+
+
+
+
 
 
 /* SMARTPHONE MODE PORTRAIT */
-@media screen and (orientation: portrait) {
-    }
+@media only screen and (max-width: 600px) {
+
+#title{
+    font-size: 2.5rem;
+    margin: 4vh 8vw ;
+    width: 84vw;
+}
+h1{
+    margin: 2vh 8vw;
+    font-size: 1.3rem;
+    line-height: 1.5;
+
+}
+#h1_en{
+    font-size: 1.1rem;
+    line-height: 1.5;
+
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    margin: 0vh 8vw;
+    width: 84vw;
+}
+
+.text_tc{
+    font-size: 1rem;
+    letter-spacing: 0px;
+    margin-top: 2vh;
+}
+
+.text_en{
+    font-size: 0.9rem;
+    letter-spacing: 0px;
+    margin-top: 2vh;
+}
+
+.text_tc2{
+    font-size: 0.9rem;
+    letter-spacing: 0px;
+    margin-top: 2vh;
+}
+
+.text_tc3{
+    font-size: 0.85rem;
+    letter-spacing: 0px;
+    margin: 6vh 0vw;
+    text-align: left;
+}
+
+
+
+#button_menu1{
+    width: 20vw;
+    height:20vw;
+
+    font-size: 5vw;
+    vertical-align: top;
+    border-radius: 50%;
+
+}
+
+.text_menu{
+    display: block;
+    position: absolute;
+    color: #000;
+    font-family: police1;
+    font-size: 6vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    margin: 3vh 8vw;
+}
+
+.text_menu2{
+    display: none;
+    position: absolute;
+    color: #000;
+    font-family: police1;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-left: 8vw;
+    
+}
+
+.text_menu2:hover{
+    color: #00ADF1;
+    transition: all .1s;
+}
+
+#menu{
+    position: absolute;
+    
+    right: 4vw;
+    top: 22vh;
+    z-index: 1000;
+
+}
+
+#menu_content1{
+    display: none;
+    border: solid #00adf1 0px;
+    margin: 0;
+    position: absolute;
+    
+    right: 0vw;
+    top: -3vh;
+    background-color: #fff;
+}
+
+#block_1, #block_2, #block_3, #block_4, #block_5, #block_6{
+    width: 90vw;
+    height: 20vh;
+    border: solid #00ADF1 2px;
+}
+
+}

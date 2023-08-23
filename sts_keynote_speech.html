@@ -9,17 +9,74 @@
             <meta http-equiv="Content-Style-Type" content="text/css"/>
             <meta name="viewport" content="initial-scale=1, maximum-scale=1">
                 <link id="css" rel="stylesheet" href="style_sts_keynote_speech.css">
-
+                <link id="css" rel="stylesheet" href="menu_footer.css">
                     <script src="lib/jquery-3.3.1.min.js"></script>
                     <script src="lib/p5.js"></script>
 
                     <script src="lib/p5.dom.js"></script>
                     <script type="text/javascript" src="scrip_sts_keynote_speech.js"></script>
+                    <script src="menu_footer.js"></script>
 
                 </head>
 
                 <body>      
-                    <div id="title"><a href="sts_home.html" id="a_title">RESCALING THE</br>WORLD</a></div> 
+                    <div id="title"><a href="index.html" id="a_title">RESCALING THE</br>WORLD</a></div> 
+                    <div id="menu">
+                        <button id="button_menu1" onclick="menu1();">Menu</button>
+                        <div id="menu_content1">
+                            <div id="block_1">
+                                <p class="text_menu">關於<br>About</p>
+                                <p class="text_menu2">
+                                    <a href="sts_about.html">年會介紹</a><br>
+                                    <a href="sts_association_intro.html">STS學會介紹</a>
+                                    </p>
+                            </div>
+        
+                            <div id="block_2">
+                                <p class="text_menu">論文<br>Thesis</p>
+                                <p class="text_menu2">
+                                    <a href="sts_thesis1.html">個別論文</a><br>
+                                    <a href="sts_thesis2.html">論壇</a><br>
+                                    <a href="sts_thesis3.html">自組論文</a><br>
+                                    <a href="sts_thesis4.html">海報發表</a><br>
+                                    <a href="sts_thesis5.html">其他形式發表</a>                                
+                                </p>
+                            </div>
+        
+                            <div  id="block_3">
+                                <p class="text_menu">活動議程</br>Events</p>
+                                <p class="text_menu2">
+                                    <a href="sts_event_schedule.html">活動時程表</a><br>
+                                    <a href="sts_events_02_09.html">年會議程表</a><br>
+                                    <a href="sts_keynote_speech.html">Keynote Speech</a><br>
+                                    <a href="sts_activity_workshop.html">公眾活動</a>                                
+                                </p>
+                            </div>
+        
+                            <div id="block_4">
+                                <p class="text_menu">展覽介紹</br>Exhibition</p>
+                                <p class="text_menu2">
+                                    <a href="sts_expo_intro.html">展覽介紹</a><br>
+                                    <a href="sts_expo_curator.html">策展人介紹</a><br>
+                                    <a href="sts_artwork_info.html">藝術家/作品介紹</a>
+                                </p>
+                            </div>
+                            
+                            <div id="block_5">
+                                <p class="text_menu">展區導覽</br>Visit Info</p>
+                                <p class="text_menu2">
+                                    <a href="sts_map.html">活動場地圖</a>
+                                </p>
+                            </div>
+        
+                            <div id="block_6">
+                                <p class="text_menu">STS學會官網</br>STS website</p>
+                                <p class="text_menu2">
+                                    <a href="http://sts.org.tw/" target="_blank">STS學會官網</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     <h1>主題演講 <span id="h1_en">Keynote Speech</span></h1> 
 
                         <div class="grid">
@@ -33,7 +90,7 @@
                                     講者｜Marisa Morán Jahn</p>
                                 <p class="text_info">主題｜藝術、煉金術和社會轉型</p>
                                 <p id="name_en">Art, Alchemy, and Social Transformation</p>
-                                    <button>圖書館三</button>
+                                    <button class="button_1">圖書館三</button>
                             </div>
 
                             <div id="content3">
@@ -54,7 +111,7 @@
                                     Harvard University</p>
                                 <p class="text_info">主題｜Some Reflections on Energy and the Scales of Historical and Social Analysis</br>
                                 </p>
-                                    <button>圖書館三</button>
+                                <button class="button_1">圖書館三</button>
                             </div>
                             
                             <div id="content6">
@@ -75,7 +132,7 @@
                                 <p class="text_info">中研院近代史研究所</p> 
                                 <p class="text_info">陽明交通大學科技與社會研究所</p>
                                 <p class="text_info">主題｜STS與現代史的相互渴望</p>
-                                    <button>圖書館三</button>
+                                <button class="button_1">圖書館三</button>
                             </div>
 
                             <div id="content9">
@@ -98,7 +155,7 @@
                                     James Cook University, Australia</p>
                                 <p class="text_info">主題｜Fairchildren and factory girls: family, space, and labor, in the Singapore electronics industry</br>
                                 </p>
-                                    <button>圖書館三</button>
+                                <button class="button_1">圖書館三</button>
                             </div>
                             
                             <div id="content12">
@@ -106,11 +163,21 @@
                                     We are now in the midst of what has been called a global "chip war," with China, the United States, and Taiwan considered to be the major players. This situation is the result of the globalization within the microelectronics industry that began in the 1960s. Southeast Asia was a major site for such outsourcing – US firms such as Fairchild Semiconductor, Hewlett Packard, and General Electric established factories in the region. This paper describes this “first wave” of outsourcing, examining the effects of these industries on work and life in the newly independent city state of Singapore. By analyzing the forms of work, patterns of family life, and development of urban space that arose within and around these factories, this talk aims to shed light on the long-term cultural and geopolitical effects of globalization within the microelectronics industries. 
                                 </p>
                                 </div>   
+
+                            </div>   
                    
               
-
-                  
-
+                              
+                                <footer>
+                                    <div class="footer_text">
+                                    指導單位｜<img id="logo" src="/media/logo_3.png"></br>
+                                    主辦單位｜臺灣科技與社會研究學會、國立臺灣大學地理環境資源學系、融聲創意</br>
+                                    協辦單位｜臺灣當代文化實驗場</br>
+                                    贊助單位｜行政院國家科學委員會、洪建全基金會、臺灣大學理學院、財團法人建蓁環境教育基金會、沛星互動科技股份有限公司、金色三麥、啤酒頭釀造</br>
+                                    設備贊助｜臺灣松下電器</br>
+                                    </div>
+                
+                                </footer>
                 </body>
 
                 </html>

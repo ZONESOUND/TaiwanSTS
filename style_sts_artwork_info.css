@@ -18,6 +18,10 @@
 body {
     overflow: scroll;
     width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: scroll; 
+    overflow-x: hidden;
     
 }
 
@@ -487,5 +491,104 @@ p{
 
 
 /* SMARTPHONE MODE PORTRAIT */
-@media screen and (orientation: portrait) {
+@media only screen and (max-width: 600px) {
+    #title{
+        font-size: 2.5rem;
+        margin: 4vh 8vw ;
+        width: 84vw;
+    }
+    h1{
+        margin: 2vh 8vw;
+        font-size: 1.3rem;
+        line-height: 1.5;
+    
+    }
+    #h1_en{
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+    h2{
+        font-size: 1.3rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+    .container{
+        display: none;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+        width: 84vw;
+        margin: 2vh 8vw;
+
+    }
+
+    #item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item8_2, #item9, #item10, #item11{
+        width: 84vw;
+        font-size: 1rem;
+
+    }
+    #intro1, #intro2, #intro3, #intro4, #intro5, #intro6, #intro7, #intro8, #intro8_2, #intro9, #intro10, #intro11{
+        width: 84vw;
+        font-size: 1rem;
+
+
+    }
+    #artist_name1_1, #artist_name1_2, #artist_name1_3, #artist_name1_4, #artist_name1_5, #artist_name1_6, #artist_name1_7, #artist_name1_8, #artist_name1_9, #artist_name1_10, #artist_name1_11, #artist_name1_12, #artist_name1_13, #artist_name1_14, #artist_name1_15, #artist_name1_16, #artist_name1_17, #artist_name1_18, #artist_name1_19, #artist_name1_20,
+    #artist_name2_1, #artist_name2_2, #artist_name2_3, #artist_name2_4, #artist_name2_5, #artist_name2_6, #artist_name2_7, #artist_name2_8, #artist_name2_9, #artist_name2_10, #artist_name2_11, #artist_name2_12, #artist_name2_13, #artist_name2_14, #artist_name2_15, #artist_name2_16, #artist_name2_17, #artist_name2_18, #artist_name2_19, #artist_name2_20{
+        width: 84vw;
+        font-size: 1.2rem;
+        margin: 0vw;
+    }
+    .nation{
+        font-size: 1rem;
+    }
+    .legende{
+        font-size: 0.7rem;
+        line-height: 1.2;
+        margin-bottom: 1vh;
+    }
+
+    .intro_tc{
+        font-size: 1rem;
+    }
+    .intro_en{
+        font-size: 0.9rem;
+        margin-bottom: 10vh;
+    }
+
+    .line1{
+        width: 80vw;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    
+    #note1_1{
+        font-size: 0.7rem;
+        padding: 1vh;
+        line-height: 1.5;
+    }
+    #note1{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        margin-right: 20vw;
+        border: solid #00ADF1 1px;
+    }
+
+    #map_image{
+        width: 80vw;
+        height: auto;
+        margin-top: -3vh;
+        margin-bottom: 3vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+
+    }
     }

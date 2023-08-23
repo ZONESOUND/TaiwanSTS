@@ -13,7 +13,10 @@
 body {
     overflow: scroll;
     width: 100vw;
-    
+    margin: 0;
+    padding: 0;
+    overflow: scroll; 
+    overflow-x: hidden;
 }
 
 
@@ -95,4 +98,23 @@ a:hover {
 
 /* SMARTPHONE MODE PORTRAIT */
 @media screen and (orientation: portrait) {
+    #title{
+        font-size: 2.5rem;
+        margin: 4vh 8vw ;
+        width: 84vw;
+    }
+    h1{
+        margin: 2vh 8vw;
+        font-size: 1.3rem;
+        line-height: 1.5;
+    
+    }
+    #h1_en{
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+    #map_image2{
+        margin: -3vh 10vw;
+    }
     }
