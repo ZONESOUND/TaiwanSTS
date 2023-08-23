@@ -19,7 +19,7 @@
 body {
     overflow: scroll;
     width: 100vw;
-    height: 100vh;
+    
     margin: 0;
     padding: 0;
     overflow: scroll; 
@@ -47,19 +47,13 @@ table {
     border-left-width:0px;
 }
 
-/* 偶數行的背景顏色 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}*/
 
 td {
     padding: 8px;
     border: 1px solid #ddd;
 }
 
-/*td:hover {
-    background-color: #00ADF1;
-}*/
+
 
 #head {
     padding: 1vh;
@@ -214,21 +208,31 @@ td {
 
 .info_blue1{
     padding: 5px 15px;
-    background-color: #00ADF1;
     border-radius: 30px;
 
     color: #fff;
     text-align: center;
     font-family: police3;
-    font-size: 1.2rem;
+    font-size: 1.05rem;
     font-style: normal;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 2px;  
-    vertical-align: top;
 }
 
 #center{
+    transform: scale(0.9);
     text-align: center;
+    border-radius: 20px;
+    background-color: #00ADF1;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    padding-right: 15px;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
 }
 
 .info_blue2{
@@ -248,7 +252,11 @@ td {
     margin: 15vh 8vw;
 
 }
+.info_blue3{
 
+    margin-bottom: 0vh; 
+
+}
 
 
 #title {
@@ -440,8 +448,7 @@ p{
 
     .info_blue1{
         padding: 5px 0px;
-        background-color: #fff;
-        color: #00ADF1;
+        color: #fff;
 
     
         font-size: 4vw;
