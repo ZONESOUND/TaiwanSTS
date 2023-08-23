@@ -505,8 +505,7 @@ p{
     table{
         width: 88vw;
         margin-left: 6vw;
-        display: flex;
-        flex-direction: column;
+        display: grid;
 
         border: 1px solid #ddd;
         border-style:solid;
@@ -517,9 +516,8 @@ p{
     td{
         border-color:#fff;
         border: 1px solid #ddd;
-
-        display: block;
-        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
         
 
        /*  border-top-width:0px;
