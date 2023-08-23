@@ -249,6 +249,16 @@ margin: 0;
 
 }
 
+.expo{
+    transform: scale(0.85);
+    color: #00ADF1;
+    border-radius: 30px;
+    border: solid #00ADF1 1px;
+    line-height: 1.8;
+    margin-top: 3vh;
+    margin-bottom: 0vh;
+    margin-left: 9vw;
+    margin-right: 9vw;
 a {
     text-decoration: none;
     color: #000;
