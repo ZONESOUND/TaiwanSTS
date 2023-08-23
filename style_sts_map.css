@@ -8,6 +8,10 @@
     font-family: police2;
     src: url("fonts/GenWanMin-R.ttc");
 }
+@font-face {
+    font-family: policeˇ;
+    src: url("fonts/Arial_Bold.ttf");
+}
 
 
 body {
