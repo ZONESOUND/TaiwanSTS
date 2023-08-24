@@ -351,7 +351,7 @@ p{
 }
 
 .menu_text_en{
-    font-size: 1vw;
+    font-size: 0.9vw;
     line-height: 1.5;
     letter-spacing: 1px;
     margin-bottom: 10vh;
@@ -631,15 +631,19 @@ footer {
 
 #block_1, #block_2, #block_3, #block_4, #block_5, #block_6{
     width: 100vw;
-    height: 30vh;
+    height: 50vw;
 }
 
 .text_menu{
-    font-size:1.6rem;
+    font-size:7vw;
 }
 
 .text_menu2{
-    font-size:1.4rem;
+    font-size: 5vw;
+}
+
+.menu_text_en{
+    font-size: 5vw;
 }
 
 p{
@@ -650,7 +654,7 @@ p{
 footer{
     position: absolute;
     z-index: 1000;
-    bottom: -170vh;
+    bottom: -207vh;
 }
 
 .footer_text{

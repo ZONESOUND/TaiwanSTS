@@ -59,7 +59,7 @@ a:hover {
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: 1px;
-    margin: 1.5vh 2vw;
+    margin: 3vh 2vw;
 }
 
 .text_menu2:hover{
@@ -70,69 +70,89 @@ a:hover {
 #menu{
     position: absolute;
     
-    right: 1vw;
-    top: 18vh;
+    right: 0vw;
+    top: 18vh ;
     z-index: 1000;
-
 }
 
 #menu_content1{
     display: none;
-    border: solid #00adf1 2px;
-    margin: 0;
-    position: absolute;
-    
-    right: 0vw;
-    top: 1vh;
-    background-color: #fff;
-}
-#block_1 { 
-    width: 20vw;
-    height: 12vw;
     border: solid #00adf1 0px;
-    margin-bottom: 1vh;
-   /* background: linear-gradient(180deg, #ffffff, #bbbbbb);*/
+    margin: 0;
+    transform: scale(0.85);
+
+    position: absolute;
+
+    right: -6vw;
+    top: -3vh;
+     /*background-color: #fff;*/
+    background:linear-gradient(180deg, #ffffff, #bbbbbb);
+}
+
+#block_1 { 
+    grid-row: 1; 
+    grid-column:1;   
+
+    width: 33vw;
+    height: 15vw;
+    border: solid #00adf1 0px;
+   /*  margin-bottom: 1vh;*/
+   background: linear-gradient(180deg, #ffffff, #bbbbbb);
 }
 
 #block_2{   
-    width: 20vw;
-    height: 12vw;
+    grid-row: 1; 
+    grid-column:2; 
+
+     width: 33vw;
+    height: 15vw;
     border: solid #00adf1 0px;
     margin-bottom: 1vh;
-   /*  background:linear-gradient(270deg, #ffffff, #bbbbbb);*/
+   /*  */
+   background:linear-gradient(270deg, #ffffff, #bbbbbb);
 }
 
-#block_3{    
-    width: 20vw;
-    height: 12vw;
+#block_3{   
+    grid-row: 1; 
+    grid-column:3;  
+     width: 34vw;
+    height: 15vw;
     border: solid #00adf1 0px;    
     margin-bottom: 1vh;
-
-   /*  background: linear-gradient(0deg, #ffffff, #bbbbbb);*/
+    background: linear-gradient(0deg, #ffffff, #bbbbbb);
+   /*  */
 }
 
 #block_4{  
-    width: 20vw;
-    height: 12vw;
+    grid-row: 2; 
+    grid-column:1; 
+     width: 33vw;
+    height: 15vw;
     border: solid #00adf1 0px;    
     margin-bottom: 1vh;
-
+    background:linear-gradient(90deg, #ffffff, #bbbbbb);
    /*  background:linear-gradient(90deg, #ffffff, #bbbbbb);*/
 }
 
 #block_5{  
-    width: 20vw;
-    height: 12vw;
+    grid-row: 2; 
+    grid-column:2; 
+     width: 33vw;
+    height: 15vw;
     border: solid #00adf1 0px;
     margin-bottom: 1vh;
+    background: linear-gradient(180deg, #ffffff, #bbbbbb);
    /*  background: linear-gradient(180deg, #ffffff, #bbbbbb);*/
 }
 
 #block_6{   
-    width: 20vw;
-    height: 12vw;
+    grid-row: 2; 
+    grid-column:3; 
+     width: 34vw;
+    height: 15vw;
     border: solid #00adf1 0px;
     margin-bottom: 1vh;
+    background:linear-gradient(90deg, #bbbbbb, #ffffff);
    /*  background:linear-gradient(90deg, #bbbbbb, #ffffff);*/
 }
 
@@ -187,7 +207,8 @@ footer {
         vertical-align: middle;
         border-radius: 50%;
         padding: 0;
-    
+
+        right:3vw;
     }
     
     .text_menu{
@@ -225,9 +246,11 @@ footer {
     #menu{
         position: absolute;
         
-        right: 4vw;
+        right: 0vw;
         top: 22vh;
         z-index: 1000;
+        background-color: #fff;
+
     
     }
     
@@ -236,18 +259,19 @@ footer {
         border: solid #00adf1 0px;
         margin: 0;
         position: absolute;
-        
+        transform: scale(1);
         right: 0vw;
-        top: -3vh;
-        background-color: #fff;
-    }
+        top: 3vh;
+        background:linear-gradient(180deg, #ffffff, #bbbbbb)
+        }
     
     #block_1, #block_2, #block_3, #block_4, #block_5, #block_6{
-        width: 90vw;
+        width: 100vw;
         height: 20vh;
-        border: solid #00ADF1 2px;
+        border: solid #00ADF1 0px;
+        background:none;
     }
-    
+    /*---------------------------footer-----------------------------*/
     .footer_text{
         line-height: 1.8;
     }
