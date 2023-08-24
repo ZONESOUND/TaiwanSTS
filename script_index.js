@@ -3,14 +3,19 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu").fadeOut(250); 
             $(this).find(".text_menu2").fadeIn(250); 
+            $(this).find(".menu_text_en").fadeIn(250); 
            
         },
         function() {
             $(this).find(".text_menu2").fadeOut(250); 
             $(this).find(".text_menu").fadeIn(250); 
+            $(this).find(".menu_text_en").fadeOut(250); 
+
         }    
     );
 });
+
+
 
 
 $(document).ready(function() {
@@ -18,11 +23,15 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu").fadeOut(250); 
             $(this).find(".text_menu2").fadeIn(250); 
+            $(this).find(".menu_text_en").fadeIn(250); 
+           
         },
         function() {
             $(this).find(".text_menu2").fadeOut(250); 
             $(this).find(".text_menu").fadeIn(250); 
-        }
+            $(this).find(".menu_text_en").fadeOut(250); 
+
+        }   
     );
 });
 
@@ -31,11 +40,15 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu").fadeOut(250); 
             $(this).find(".text_menu2").fadeIn(250); 
+            $(this).find(".menu_text_en").fadeIn(250); 
+           
         },
         function() {
             $(this).find(".text_menu2").fadeOut(250); 
             $(this).find(".text_menu").fadeIn(250); 
-        }
+            $(this).find(".menu_text_en").fadeOut(250); 
+
+        }   
     );
 });
 
@@ -44,11 +57,15 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu").fadeOut(250); 
             $(this).find(".text_menu2").fadeIn(250); 
+            $(this).find(".menu_text_en").fadeIn(250); 
+           
         },
         function() {
             $(this).find(".text_menu2").fadeOut(250); 
             $(this).find(".text_menu").fadeIn(250); 
-        }
+            $(this).find(".menu_text_en").fadeOut(250); 
+
+        }   
     );
 });
 
@@ -57,11 +74,15 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu").fadeOut(250); 
             $(this).find(".text_menu2").fadeIn(250); 
+            $(this).find(".menu_text_en").fadeIn(250); 
+           
         },
         function() {
             $(this).find(".text_menu2").fadeOut(250); 
             $(this).find(".text_menu").fadeIn(250); 
-        }
+            $(this).find(".menu_text_en").fadeOut(250); 
+
+        }   
     );
 });
 
@@ -70,11 +91,15 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu").fadeOut(250); 
             $(this).find(".text_menu2").fadeIn(250); 
+            $(this).find(".menu_text_en").fadeIn(250); 
+           
         },
         function() {
             $(this).find(".text_menu2").fadeOut(250); 
             $(this).find(".text_menu").fadeIn(250); 
-        }
+            $(this).find(".menu_text_en").fadeOut(250); 
+
+        }   
     );
 });
 

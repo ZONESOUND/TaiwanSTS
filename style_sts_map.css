@@ -104,9 +104,12 @@ a:hover {
 @media screen and (orientation: portrait) {
     #title{
         font-size: 2.5rem;
-        margin: 4vh 8vw ;
-        width: 84vw;
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+        margin-left: 4vh;
+        width: 64vw;
     }
+    
     h1{
         margin: 2vh 8vw;
         font-size: 1.3rem;

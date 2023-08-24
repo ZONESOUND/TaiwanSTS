@@ -153,9 +153,9 @@ body > *:not(footer) {
 footer {
     margin-top: 10vh;
     flex-shrink: 0;
+    background: linear-gradient(180deg, #ffffff, #bbbbbb);
+
 }
-
-
 
 .footer_text{
     font-family: police2;
@@ -167,7 +167,6 @@ footer {
     color: #6A6A6A;
 }
 
-    
 
 #logo{
     width:6vw;
