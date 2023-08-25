@@ -77,7 +77,7 @@ $(document).ready(function() {
             if (block1Clicked) {
                 $(this).find(".text_menu2").fadeOut(250); 
                 $(this).find(".text_menu").fadeIn(250); 
-                $("#block_1").css({ height: '25vw' });
+                $("#block_1").css({ height: '30vw' });
             } else {
                 $(this).find(".text_menu").fadeOut(250); 
                 $(this).find(".text_menu2").fadeIn(250); 
@@ -120,7 +120,7 @@ $(document).ready(function() {
             if (block2Clicked) {
                 $(this).find(".text_menu2").fadeOut(250); 
                 $(this).find(".text_menu").fadeIn(250); 
-                $("#block_2").css({ height: '25vw' });
+                $("#block_2").css({ height: '30vw' });
             } else {
                 $(this).find(".text_menu").fadeOut(250); 
                 $(this).find(".text_menu2").fadeIn(250); 
@@ -160,7 +160,7 @@ $(document).ready(function() {
             if (block3Clicked) {
                 $(this).find(".text_menu2").fadeOut(250); 
                 $(this).find(".text_menu").fadeIn(250); 
-                $("#block_3").css({ height: '25vw' });
+                $("#block_3").css({ height: '30vw' });
             } else {
                 $(this).find(".text_menu").fadeOut(250); 
                 $(this).find(".text_menu2").fadeIn(250); 
@@ -199,7 +199,7 @@ $(document).ready(function() {
             if (block4Clicked) {
                 $(this).find(".text_menu2").fadeOut(250); 
                 $(this).find(".text_menu").fadeIn(250); 
-                $("#block_4").css({ height: '25vw' });
+                $("#block_4").css({ height: '30vw' });
             } else {
                 $(this).find(".text_menu").fadeOut(250); 
                 $(this).find(".text_menu2").fadeIn(250); 
@@ -238,11 +238,11 @@ $(document).ready(function() {
             if (block5Clicked) {
                 $(this).find(".text_menu2").fadeOut(250); 
                 $(this).find(".text_menu").fadeIn(250); 
-                $("#block_5").css({ height: '25vw' });
+                $("#block_5").css({ height: '30vw' });
             } else {
                 $(this).find(".text_menu").fadeOut(250); 
                 $(this).find(".text_menu2").fadeIn(250); 
-                $("#block_5").css({ height: '20vw' });
+                $("#block_5").css({ height: '30vw' });
             }
             block5Clicked = !block5Clicked;
         });
@@ -276,7 +276,7 @@ $(document).ready(function() {
             if (block6Clicked) {
                 $(this).find(".text_menu2").fadeOut(250); 
                 $(this).find(".text_menu").fadeIn(250); 
-                $("#block_6").css({ height: '25vw' });
+                $("#block_6").css({ height: '30vw' });
             } else {
                 $(this).find(".text_menu").fadeOut(250); 
                 $(this).find(".text_menu2").fadeIn(250); 
