@@ -110,7 +110,7 @@ body {
     grid-column: 1;
     grid-row: 1;
     width: 33.33vw;
-    height: 23vw;
+    height: 18vw;
     background: linear-gradient(180deg, #ffffff, #bbbbbb);
 }
 #block_1:hover{ 
@@ -142,7 +142,7 @@ body {
     grid-column: 2;
     grid-row: 1;
     width: 33.33vw;
-    height: 23vw;
+    height: 18vw;
     background:linear-gradient(270deg, #ffffff, #bbbbbb);
 }
 
@@ -175,7 +175,7 @@ body {
     grid-column: 3;
     grid-row: 1;
     width: 33.34vw;
-    height: 23vw;
+    height: 18vw;
 
     background: linear-gradient(0deg, #ffffff, #bbbbbb);
 }
@@ -210,7 +210,7 @@ body {
     grid-column: 1;
     grid-row: 2;
     width: 33.33vw;
-    height: 23vw;
+    height: 18vw;
 
     background:linear-gradient(90deg, #ffffff, #bbbbbb);
 }
@@ -244,7 +244,7 @@ body {
     grid-column: 2;
     grid-row: 2;
     width: 33.33vw;
-    height: 23vw;
+    height: 18vw;
 
     background: linear-gradient(180deg, #ffffff, #bbbbbb);
 }
@@ -277,7 +277,7 @@ body {
     grid-column: 3;
     grid-row: 2;
     width: 33.34vw;
-    height: 23vw;
+    height: 18vw;
 
     background:linear-gradient(90deg, #bbbbbb, #ffffff);
 }
@@ -336,7 +336,7 @@ p{
     position:absolute;
     color: #000;
     font-family: police1;
-    font-size: 1.6vw;
+    font-size: 1.8vw;
     font-style: normal;
     font-weight: 700;
     line-height: 1.5;
@@ -351,7 +351,7 @@ p{
 }
 
 .menu_text_en{
-    font-size: 0.9vw;
+    font-size: 1vw;
     line-height: 1.5;
     letter-spacing: 1px;
     margin-bottom: 10vh;

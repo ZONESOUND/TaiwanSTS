@@ -32,7 +32,7 @@ a:hover {
    
     color:#00ADF1;
     background-color: #fff;
-    border: solid #00ADF1 2px;
+    border: solid #00ADF1 2.5px;
 
 }
 
@@ -65,7 +65,7 @@ a:hover {
 .menu_text_en{
     font-size: 1.3vw;
     line-height: 1.5;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 .text_menu2:hover{
@@ -84,6 +84,7 @@ a:hover {
 #menu_content1{
     display: none;
     border: solid #00adf1 3px;
+    height: auto;
     margin: 0;
     transform: scale(0.9);
 
@@ -102,8 +103,8 @@ a:hover {
     grid-row: 1; 
     grid-column:1;   
 
-    width: 28vw;
-    height: 18vw;
+    width: 30vw;
+    height: 15vw;
     border: solid #00adf1 0px;
    /*  margin-bottom: 1vh;
       background: linear-gradient(180deg, #ffffff, #bbbbbb);
@@ -114,8 +115,8 @@ a:hover {
     grid-row: 1; 
     grid-column:2; 
 
-     width: 28vw;
-    height: 18vw;
+     width: 30vw;
+    height: 15vw;
     border: solid #00adf1 0px;
     margin-bottom: 0vh;
    /*   
@@ -126,8 +127,8 @@ a:hover {
 #block_3{   
     grid-row: 1; 
     grid-column:3;  
-     width: 28vw;
-    height: 18vw;
+     width: 30vw;
+    height: 15vw;
     border: solid #00adf1 0px;    
     margin-bottom: 0vh;
    /*    
@@ -138,8 +139,8 @@ a:hover {
 #block_4{  
     grid-row: 2; 
     grid-column:1; 
-     width: 28vw;
-    height: 18vw;
+     width: 30vw;
+    height: 15vw;
     border: solid #00adf1 0px;    
     margin-bottom: 0vh;
    /*  
@@ -150,8 +151,8 @@ a:hover {
 #block_5{  
     grid-row: 2; 
     grid-column:2; 
-     width: 28vw;
-    height: 18vw;
+     width: 30vw;
+    height: 15vw;
     border: solid #00adf1 0px;
     margin-bottom: 0vh;
    /*  
@@ -162,8 +163,8 @@ a:hover {
 #block_6{   
     grid-row: 2; 
     grid-column:3; 
-     width: 28vw;
-    height: 18vw;
+     width: 30vw;
+    height: 15vw;
     border: solid #00adf1 0px;
     margin-bottom: 0vh;
    /*  
@@ -253,13 +254,17 @@ footer {
     }
 
     
-    
-    
     .text_menu2:hover{
         color: #00ADF1;
         transition: all .1s;
     }
     
+    .menu_text_en{
+        font-size: 4vw;
+        line-height: 1.5;
+        letter-spacing: 0.5px;
+    }
+
     #menu{
         position: absolute;
         
@@ -283,10 +288,11 @@ footer {
     
     #block_1, #block_2, #block_3, #block_4, #block_5, #block_6{
         width: 100vw;
-        height: 20vh;
+        height: 40vw;
         border: solid #00ADF1 0px;
         background:none;
     }
+
     /*---------------------------footer-----------------------------*/
     .footer_text{
         line-height: 1.8;
