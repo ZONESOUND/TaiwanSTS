@@ -605,7 +605,7 @@ p{
 
     #intro_bouton1, #intro_bouton2, #intro_bouton3, #intro_bouton4, #intro_bouton5, #intro_bouton6, #intro_bouton7, #intro_bouton8, #intro_bouton9, #intro_bouton10, #intro_bouton11, #intro_bouton12, #intro_bouton13, #intro_bouton14, #intro_bouton15, #intro_bouton16, #intro_bouton17, #intro_bouton18, #intro_bouton19, #intro_bouton20, #intro_bouton21, #intro_bouton22, #intro_bouton23, #intro_bouton24, #intro_bouton25, #intro_bouton26, #intro_bouton27, #intro_bouton28, #intro_bouton29, #intro_bouton30, #intro_bouton31, #intro_bouton32, #intro_bouton33, #intro_bouton34, #intro_bouton35, #intro_bouton36, #intro_bouton37, #intro_bouton38, #intro_bouton39, #intro_bouton40, #intro_bouton41, #intro_bouton42, #intro_bouton43, #intro_bouton44, #intro_bouton45, #intro_bouton46, #intro_bouton47, #intro_bouton48, #intro_bouton49, #intro_bouton50, #intro_bouton51, #intro_bouton52, #intro_bouton53, #intro_bouton54, #intro_bouton55, #intro_bouton56, #intro_bouton57, #intro_bouton58, #intro_bouton59, #intro_bouton60, #intro_bouton61, #intro_bouton62, #intro_bouton63, #intro_bouton64 {
         position: relative;
-        left: 75vw;
+        left: 70vw;
         font-size: 2rem;
     }
     #intro1, #intro2, #intro3, #intro4, #intro5, #intro6, #intro7, #intro8, #intro9, #intro10, #intro11, #intro12, #intro13, #intro14, #intro15, #intro16, #intro17, #intro18, #intro19, #intro20, #intro21, #intro22, #intro23, #intro24, #intro25, #intro26, #intro27, #intro28, #intro29, #intro30, #intro31, #intro32, #intro33, #intro34, #intro35, #intro36, #intro37, #intro38, #intro39, #intro40, #intro41, #intro42, #intro43, #intro44, #intro45, #intro46, #intro47, #intro48, #intro49, #intro50, #intro51, #intro52, #intro53, #intro54, #intro55, #intro56, #intro57, #intro58, #intro59, #intro60, #intro61, #intro62{ 
@@ -628,7 +628,7 @@ p{
 
     #in_bouton1, #in_bouton2, #in_bouton3, #in_bouton4, #in_bouton5, #in_bouton6, #in_bouton7, #in_bouton8, #in_bouton9, #in_bouton10, #in_bouton11, #in_bouton12{
         position: relative;
-        left: 75vw;
+        left: 70vw;
         font-size: 2rem;
     }
 
