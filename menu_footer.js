@@ -27,6 +27,7 @@ function menu1() {
         });
         moreBouton.css("background-color", "#00ADF1");
         moreBouton.css("color", "#fff");
+        moreBouton.css("background-color", "#00ADF1");
     } else {
         moreInfo.stop(true, true).fadeIn(500, function() {
             moreBouton.prop("disabled", false);
@@ -42,8 +43,7 @@ function menu1() {
         moreInfo.css("display", "block");
     }
     
-    moreBouton.css("background-color", "#fff");
-    moreBouton.css("color", "#00ADF1");
+
 }
 
 
@@ -56,6 +56,8 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu").fadeOut(250); 
             $(this).find(".text_menu2").fadeIn(250); 
+            $(this).find(".menu_text_en").fadeIn(250); 
+
             $("#block_2").css({ height: '25vw' });
             $("#block_3").css({ height: '25vw' });
             $("#block_1").css({ height: '25vw' });
@@ -63,9 +65,11 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu2").fadeOut(250); 
             $(this).find(".text_menu").fadeIn(250); 
-            $("#block_2").css({ height: '15vw' });
-            $("#block_3").css({ height: '15vw' });
-            $("#block_1").css({ height: '15vw' });
+            $(this).find(".menu_text_en").fadeOut(250); 
+
+            $("#block_2").css({ height: '18vw' });
+            $("#block_3").css({ height: '18vw' });
+            $("#block_1").css({ height: '18vw' });
         }    
     );
 });
@@ -76,6 +80,8 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu").fadeOut(250); 
             $(this).find(".text_menu2").fadeIn(250); 
+            $(this).find(".menu_text_en").fadeIn(250); 
+
             $("#block_2").css({ height: '25vw' });
             $("#block_3").css({ height: '25vw' });
             $("#block_1").css({ height: '25vw' });
@@ -84,9 +90,11 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu2").fadeOut(250); 
             $(this).find(".text_menu").fadeIn(250); 
-            $("#block_2").css({ height: '15vw' });
-            $("#block_3").css({ height: '15vw' });
-            $("#block_1").css({ height: '15vw' });        }
+            $(this).find(".menu_text_en").fadeOut(250); 
+
+            $("#block_2").css({ height: '18vw' });
+            $("#block_3").css({ height: '18vw' });
+            $("#block_1").css({ height: '18vw' });        }
     );
 });
 
@@ -95,6 +103,8 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu").fadeOut(250); 
             $(this).find(".text_menu2").fadeIn(250); 
+            $(this).find(".menu_text_en").fadeIn(250); 
+
             $("#block_2").css({ height: '25vw' });
             $("#block_3").css({ height: '25vw' });
             $("#block_1").css({ height: '25vw' });
@@ -102,9 +112,11 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu2").fadeOut(250); 
             $(this).find(".text_menu").fadeIn(250); 
-            $("#block_2").css({ height: '15vw' });
-            $("#block_3").css({ height: '15vw' });
-            $("#block_1").css({ height: '15vw' });
+            $(this).find(".menu_text_en").fadeOut(250); 
+
+            $("#block_2").css({ height: '18vw' });
+            $("#block_3").css({ height: '18vw' });
+            $("#block_1").css({ height: '18vw' });
         }
     );
 });
@@ -114,11 +126,15 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu").fadeOut(250); 
             $(this).find(".text_menu2").fadeIn(250); 
+            $(this).find(".menu_text_en").fadeIn(250); 
+           
         },
         function() {
             $(this).find(".text_menu2").fadeOut(250); 
             $(this).find(".text_menu").fadeIn(250); 
-        }
+            $(this).find(".menu_text_en").fadeOut(250); 
+
+        }   
     );
 });
 
@@ -127,11 +143,15 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu").fadeOut(250); 
             $(this).find(".text_menu2").fadeIn(250); 
+            $(this).find(".menu_text_en").fadeIn(250); 
+           
         },
         function() {
             $(this).find(".text_menu2").fadeOut(250); 
             $(this).find(".text_menu").fadeIn(250); 
-        }
+            $(this).find(".menu_text_en").fadeOut(250); 
+
+        }   
     );
 });
 
@@ -140,11 +160,15 @@ $(document).ready(function() {
         function() {
             $(this).find(".text_menu").fadeOut(250); 
             $(this).find(".text_menu2").fadeIn(250); 
+            $(this).find(".menu_text_en").fadeIn(250); 
+           
         },
         function() {
             $(this).find(".text_menu2").fadeOut(250); 
             $(this).find(".text_menu").fadeIn(250); 
-        }
+            $(this).find(".menu_text_en").fadeOut(250); 
+
+        }   
     );
 });
 

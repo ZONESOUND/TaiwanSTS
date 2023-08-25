@@ -12,7 +12,7 @@ a:hover {
 #button_menu1{
     position: absolute;
     top:-18vh;
-    right:-1vw;
+    right:3vw;
 
     width: 22vw;
     height: 8vw;
@@ -54,12 +54,18 @@ a:hover {
     position: absolute;
     color: #000;
     font-family: police1;
-    font-size: 1.45vw;
+    font-size: 1.7vw;
     font-style: normal;
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: 1px;
     margin: 3vh 2vw;
+}
+
+.menu_text_en{
+    font-size: 1.3vw;
+    line-height: 1.5;
+    letter-spacing: 1px;
 }
 
 .text_menu2:hover{
@@ -70,90 +76,99 @@ a:hover {
 #menu{
     position: absolute;
     
-    right: 0vw;
+    right: -3vw;
     top: 18vh ;
     z-index: 1000;
 }
 
 #menu_content1{
     display: none;
-    border: solid #00adf1 0px;
+    border: solid #00adf1 3px;
     margin: 0;
-    transform: scale(0.85);
+    transform: scale(0.9);
 
     position: absolute;
 
-    right: -6vw;
-    top: -3vh;
-     /*background-color: #fff;*/
+    right: 3vw;
+    top: 0vh;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2px);
+     /*
     background:linear-gradient(180deg, #ffffff, #bbbbbb);
+*/
 }
 
 #block_1 { 
     grid-row: 1; 
     grid-column:1;   
 
-    width: 33vw;
-    height: 15vw;
+    width: 28vw;
+    height: 18vw;
     border: solid #00adf1 0px;
-   /*  margin-bottom: 1vh;*/
-   background: linear-gradient(180deg, #ffffff, #bbbbbb);
+   /*  margin-bottom: 1vh;
+      background: linear-gradient(180deg, #ffffff, #bbbbbb);
+*/
 }
 
 #block_2{   
     grid-row: 1; 
     grid-column:2; 
 
-     width: 33vw;
-    height: 15vw;
+     width: 28vw;
+    height: 18vw;
     border: solid #00adf1 0px;
-    margin-bottom: 1vh;
-   /*  */
-   background:linear-gradient(270deg, #ffffff, #bbbbbb);
+    margin-bottom: 0vh;
+   /*   
+    background:linear-gradient(270deg, #ffffff, #bbbbbb);
+ */
 }
 
 #block_3{   
     grid-row: 1; 
     grid-column:3;  
-     width: 34vw;
-    height: 15vw;
+     width: 28vw;
+    height: 18vw;
     border: solid #00adf1 0px;    
-    margin-bottom: 1vh;
+    margin-bottom: 0vh;
+   /*    
     background: linear-gradient(0deg, #ffffff, #bbbbbb);
-   /*  */
+ */
 }
 
 #block_4{  
     grid-row: 2; 
     grid-column:1; 
-     width: 33vw;
-    height: 15vw;
+     width: 28vw;
+    height: 18vw;
     border: solid #00adf1 0px;    
-    margin-bottom: 1vh;
-    background:linear-gradient(90deg, #ffffff, #bbbbbb);
-   /*  background:linear-gradient(90deg, #ffffff, #bbbbbb);*/
+    margin-bottom: 0vh;
+   /*  
+   background:linear-gradient(90deg, #ffffff, #bbbbbb);
+   */
 }
 
 #block_5{  
     grid-row: 2; 
     grid-column:2; 
-     width: 33vw;
-    height: 15vw;
+     width: 28vw;
+    height: 18vw;
     border: solid #00adf1 0px;
-    margin-bottom: 1vh;
-    background: linear-gradient(180deg, #ffffff, #bbbbbb);
-   /*  background: linear-gradient(180deg, #ffffff, #bbbbbb);*/
+    margin-bottom: 0vh;
+   /*  
+   background: linear-gradient(180deg, #ffffff, #bbbbbb);
+   */
 }
 
 #block_6{   
     grid-row: 2; 
     grid-column:3; 
-     width: 34vw;
-    height: 15vw;
+     width: 28vw;
+    height: 18vw;
     border: solid #00adf1 0px;
-    margin-bottom: 1vh;
-    background:linear-gradient(90deg, #bbbbbb, #ffffff);
-   /*  background:linear-gradient(90deg, #bbbbbb, #ffffff);*/
+    margin-bottom: 0vh;
+   /*  
+   background:linear-gradient(90deg, #bbbbbb, #ffffff);
+   */
 }
 
    /* ----------------footer---------------------*/
@@ -229,14 +244,16 @@ footer {
         position: absolute;
         color: #000;
         font-family: police1;
-        font-size: 4vw;
+        font-size: 5vw;
         font-style: normal;
         font-weight: 700;
         line-height: 1.5;
         letter-spacing: 1px;
-        margin-left: 8vw;
-        
+        margin-left: 8vw; 
     }
+
+    
+    
     
     .text_menu2:hover{
         color: #00ADF1;
@@ -251,7 +268,6 @@ footer {
         z-index: 1000;
         background-color: #fff;
 
-    
     }
     
     #menu_content1{
