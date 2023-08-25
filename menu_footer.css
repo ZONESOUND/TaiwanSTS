@@ -282,7 +282,7 @@ footer {
         position: absolute;
         transform: scale(1);
         right: 0vw;
-        top: 3vh;
+        top: 0vh;
         background:linear-gradient(180deg, #ffffff, #bbbbbb)
         }
     

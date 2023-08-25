@@ -12,7 +12,7 @@
 
 body {
     width: 100vw;
-    height: 255vh;
+    height: auto;
 
     margin: 0;
     padding: 0;
@@ -539,8 +539,7 @@ a:hover {
     display: block;
 }
 
-   /* ----------------footer---------------------*/
-
+   /* ----------------footer-----------------
 
    body {
     min-height: 100vh;
@@ -551,11 +550,15 @@ a:hover {
 
 body > *:not(footer) {
     flex: 1;
-}
+      flex-shrink: 0;
+}----*/
+
 
 footer {
-    margin-top: 10vh;
-    flex-shrink: 0;
+    grid-column:1/4;
+    grid-row: 4;
+
+    margin-top: 5vh;
     background: linear-gradient(180deg, #ffffff, #bbbbbb);
 
 }
@@ -617,7 +620,7 @@ footer {
     display: flex;
     z-index: 1000;
     width: 100vw;
-    height: 207vh;
+    height: auto;
     flex-direction: column;
     top: 100vh;
 }
@@ -651,11 +654,7 @@ p{
 
 }
 
-footer{
-    position: absolute;
-    z-index: 1000;
-    bottom: -207vh;
-}
+
 
 .footer_text{
     line-height: 1.5;

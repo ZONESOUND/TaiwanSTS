@@ -26,6 +26,9 @@ body {
     overflow-x: hidden;
 }      
 
+#table_m{
+    display: none;
+}
 
 table {
     width: 80vw;
@@ -256,6 +259,7 @@ td {
 
     margin-bottom: 0vh; 
 
+
 }
 
 
@@ -361,32 +365,23 @@ p{
     }
 
 
-
     table{
         width: 88vw;
         margin-right: 6vw;
         margin-left: 6vw;
         margin-top: 0vh;
-        margin-bottom: 1vh;
+        margin-bottom: 3vh;
         
         display: grid;
 
-        border-color:#fff;
-        border-style:solid;
+        border: 2px solid #ddd;
     }
     
-    #table_3{
-        margin-right: 0vw;
-        margin-left: 3vw;
-        margin-top: 0vh;
-        margin-bottom: 0vh;
-
-        padding: 0;
-        border: none;
-        display: grid;
-        vertical-align: top;
+    
+    tr {
+        display: flex;
+        flex-direction: column;
     }
-
     td {
         padding: 8px;
         border: 2px solid #ddd;
@@ -399,14 +394,18 @@ p{
     .time{
         font-size: 4vw;
         line-height: 1;
-        padding: 0vh 1vw;
+        padding: 1vh 1vw;
+        
     }
 
     .info{
         font-size:4.5vw;
         margin-top: 0;
+        line-height: 1.5;
 
-        padding:2vh 0vw;
+        padding:1vh 0vw;
+        letter-spacing: 0px;
+
     }
 
     .info_2{
@@ -421,9 +420,27 @@ p{
         font-size:4vw
     }
 
+    .info_date{
+
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-left:  1vw;
+        padding-right: 1vw;
+    
+        color: #000;
+        text-align: center;
+        font-family: police3;
+        font-size: 1.3rem;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: 2px;  
+        vertical-align: top;
+    }
     .info_schedule1{
-        font-size: 4vw;
+        font-size: 4.5vw;
         letter-spacing: 0;
+        padding: 2vh 10vw;
+
     }
 
     .info_schedule2{
@@ -432,17 +449,8 @@ p{
         letter-spacing: 0;
         margin-top: 2vh;
     }
-    .info_detail{
-        font-size: 4vw;
-        letter-spacing: 0;
-        padding: 4vh 2vw;
-    }
+    
 
-    .info_day{
-        font-size: 4vw;
-        letter-spacing: 0;
-
-    }
 
     .button_1{
         font-size: 4vw;
@@ -450,11 +458,11 @@ p{
     }
 
     .info_blue1{
-        padding: 5px 0px;
+        padding: 10px 0px;
         color: #fff;
 
     
-        font-size: 4vw;
+        font-size: 3.6vw;
         line-height: 1.5;
         letter-spacing: 0;  
     }
@@ -472,29 +480,30 @@ p{
         margin:0;  
       
     }
-
     .info_blue3{
 
-        margin: 3vh 6vw;
+        margin-bottom: 0vh; 
+        
+        padding: 0vh 8vw;
+
     }
 
     .info_ws{    
-        border: 2px solid #ddd;
-        padding: 3vh 2vw;
+        border: 3px solid #ddd;
+        padding: 3vh 5vw;
+        font-size: 4.5vw;
+        letter-spacing: 0;
     
     }
+    
 
-    .info_ws_date{
-        border-radius: 30px;
-        background-color: #00ADF1;
-        color: #fff;
-        line-height: 1.5;
-        text-align: center;
-        padding: 0vh 0vw;
-        font-size: 5vw;
+    #table_p{
+            display: none;
+        }
+    #table_m{
+            display: block;
+        }
 
-        margin: 0vh 6vw;
-    }
 
     
 }
