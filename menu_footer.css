@@ -288,7 +288,7 @@ footer {
     
     #block_1, #block_2, #block_3, #block_4, #block_5, #block_6{
         width: 100vw;
-        height: 40vw;
+        height: 30vw;
         border: solid #00ADF1 0px;
         background:none;
     }

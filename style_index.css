@@ -351,7 +351,7 @@ p{
 }
 
 .menu_text_en{
-    font-size: 1vw;
+    font-size: 1.3vw;
     line-height: 1.5;
     letter-spacing: 1px;
     margin-bottom: 10vh;
@@ -631,7 +631,7 @@ footer {
 
 #block_1, #block_2, #block_3, #block_4, #block_5, #block_6{
     width: 100vw;
-    height: 50vw;
+    height: 40vw;
 }
 
 .text_menu{
