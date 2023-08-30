@@ -70,6 +70,18 @@ td {
     letter-spacing: 3px;    
 }   
 
+#head_2{
+
+    padding: 2vh 2vw;
+
+    color: #000;
+    text-align: left;
+    font-family: police3;
+    font-size: 1.3rem;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3px; 
+}
 .time {
     
     padding: 1.5vh;

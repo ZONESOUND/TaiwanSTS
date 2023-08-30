@@ -61,7 +61,19 @@ h1 {
     line-height: normal;
 
 }
+h2{
+    color: #000;
+    font-family: Helvetica;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 
+    margin-left: 6vw;
+    margin-top: 1vh;
+    margin-bottom: 4vh;
+    margin-right: 0vw;
+}
 
 #map_image1{
     width: 80vw;
@@ -121,6 +133,15 @@ a:hover {
         line-height: 1.5;
     }
 
+    h2{
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+        margin-left: 8vw;
+        margin-right: 8vw;
+        font-size: 1.1rem;
+        line-height: 1.5;
+    
+    }
     #map_image2{
         margin: -3vh 10vw;
     }

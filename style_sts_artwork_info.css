@@ -345,6 +345,13 @@ h3 {
     margin: 0;
 }
 
+.italic{
+    font-style: italic;
+}
+.inderline{
+    text-decoration: underline;
+}
+
 #artist_name1_1, #artist_name1_2, #artist_name1_3, #artist_name1_4, #artist_name1_8, #artist_name1_9, #artist_name1_10, #artist_name1_11, #artist_name1_12, #artist_name1_13, #artist_name1_14, #artist_name1_15, #artist_name1_16, #artist_name1_17, #artist_name1_18, #artist_name1_19, #artist_name1_20{
     color: #000;
     font-family: Helvetica;

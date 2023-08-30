@@ -9,6 +9,11 @@
     src: url("fonts/GenWanMin-R.ttc");
 }
 
+@font-face {
+    font-family: police3;
+    src: url("fonts/Arial_Bold.ttf");
+}
+
 
 body {
     width: 100vw;
@@ -561,6 +566,9 @@ footer {
     margin-top: 5vh;
     background: linear-gradient(180deg, #ffffff, #bbbbbb);
 
+}
+#footer_info{
+    font-family: police1;
 }
 
 .footer_text{
